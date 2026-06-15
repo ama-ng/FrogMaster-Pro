@@ -1,0 +1,13 @@
+{
+  "name": "eat-that-frog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "serve -s . -l 3000",
+    "start": "serve -s . -l 3000",
+    "build": "node -e \"console.log('Static site - no build step required')\""
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

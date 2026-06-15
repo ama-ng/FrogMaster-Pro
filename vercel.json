@@ -1,0 +1,6 @@
+{
+  "buildCommand": "node -e \"console.log('Static site - no build step required')\"",
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "rewrites": [{ "source": "/", "destination": "/index.html" }]
+}
